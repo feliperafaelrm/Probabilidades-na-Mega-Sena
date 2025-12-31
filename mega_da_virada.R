@@ -22,25 +22,3 @@ mega <- function(n){
                           round(100*prob_algum_premio,6),"%.")
 )))
 }
-
-# TESTANDO:
-mega(6)
-
-mega(8)
-
-mega(10)
-
-mega(12)
-
-mega(15)
-
-mega(20)
-
-mega(57)
-
-mega(58)
-
-mega(59)
-
-
-mega(60)
