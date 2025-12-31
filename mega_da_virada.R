@@ -10,7 +10,7 @@ mega <- function(n){
   prob_quadra <- as.numeric(chooseZ(n,4)*chooseZ(60-n,2)/chooseZ(60,6))
   prob_quina <- as.numeric(chooseZ(n,5)*chooseZ(60-n,1)/chooseZ(60,6))
   prob_sena <- as.numeric(chooseZ(n,6)/chooseZ(60,6))
-  prob_algum_premio <- min(1,prob_quadra+prob_quina+prob_sena)
+  prob_algum_premio <- prob_quadra+prob_quina+prob_sena
   return(message(c(paste0("Em um jogo com ",n," dezenas:"),"\n\n",
                    paste0("A probabilidade de fazer uma quadra é de ",
                           round(100*prob_quadra,6),"%;"),"\n",
@@ -41,5 +41,6 @@ mega(57)
 mega(58)
 
 mega(59)
+
 
 mega(60)
