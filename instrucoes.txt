@@ -1,0 +1,25 @@
+Se você nunca usou ou nunca ouviu falar do R, mas ficou curioso em ver as probabilidades de ganhar na Mega-Sena, segue o passo a passo.
+
+
+1. Baixe o software R em https://cloud.r-project.org/bin/windows/base/R-4.5.2-win.exe
+
+2. Instale-o e abra.
+
+3. Copie as linhas de comando em mega_da_virada.R e cole na janela R Console do R.
+
+4. Ainda na janela R Console do R, digite
+
+mega()
+
+com um número inteiro de 6 até 60 entre os parênteses e aperte Enter. Por exemplo, digitar
+
+mega(6)
+
+e apertar Enter gera a saída abaixo.
+
+Em um jogo com 6 dezenas:
+
+A probabilidade de fazer uma quadra é de 0,042875%;
+A probabilidade de fazer uma quina é de 0,000647%;
+A probabilidade de acertar as seis dezenas é de 0,000002%;
+A probabilidade de ganhar algum prêmio é de 0,043524%.
